@@ -127,7 +127,7 @@ class PostsModel {
             postFetch.removeAllObservers()
             
             if snapshot.hasChildren() {
-                let post_firebase = Post.init(snapshot: snapshot)
+                let post_firebase = Posts.init(snapshot: snapshot)
                 
                 //TODO: -- TODO: Implementar en el Backend con más tiempo
                 post_firebase.numRatings = 0
@@ -139,8 +139,8 @@ class PostsModel {
                     }
                 }
                 
-                posts.child(postCloudRef).child(constants.numRatings).setValue(post_firebase.numRatings)
-                posts.child(postCloudRef).child(constants.cumulativeRating).setValue(post_firebase.cumulativeRating)
+                posts.child(postCloudRef).child("numRatings").setValue(post_firebase.numRatings)
+                posts.child(postCloudRef).child("cumulativeRating").setValue(post_firebase.cumulativeRating)
                 
                 DispatchQueue.main.async {
                     completion(Callbacks(done: true, message: "Rating saved"))

@@ -18,6 +18,10 @@
 		A123C5661EE87D260000BCD0 /* Posts+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123C5651EE87D260000BCD0 /* Posts+Utils.swift */; };
 		A123C5691EE87E510000BCD0 /* Typealias.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123C5681EE87E510000BCD0 /* Typealias.swift */; };
 		A123C56B1EE87F3F0000BCD0 /* Callbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123C56A1EE87F3F0000BCD0 /* Callbacks.swift */; };
+		A123C56D1EE8807A0000BCD0 /* NSObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123C56C1EE8807A0000BCD0 /* NSObject.swift */; };
+		A123C56F1EE881CB0000BCD0 /* UIImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123C56E1EE881CB0000BCD0 /* UIImageView.swift */; };
+		A123C5721EE882E40000BCD0 /* Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123C5711EE882E40000BCD0 /* Files.swift */; };
+		A123C5741EE883010000BCD0 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A123C5731EE883010000BCD0 /* Errors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +39,10 @@
 		A123C5651EE87D260000BCD0 /* Posts+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Posts+Utils.swift"; sourceTree = "<group>"; };
 		A123C5681EE87E510000BCD0 /* Typealias.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Typealias.swift; sourceTree = "<group>"; };
 		A123C56A1EE87F3F0000BCD0 /* Callbacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Callbacks.swift; sourceTree = "<group>"; };
+		A123C56C1EE8807A0000BCD0 /* NSObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSObject.swift; sourceTree = "<group>"; };
+		A123C56E1EE881CB0000BCD0 /* UIImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIImageView.swift; sourceTree = "<group>"; };
+		A123C5711EE882E40000BCD0 /* Files.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Files.swift; sourceTree = "<group>"; };
+		A123C5731EE883010000BCD0 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
 		C0ADCE05BAED01EDAFAE7B6B /* Pods_Scoop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Scoop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -80,6 +88,7 @@
 		A123C54D1EE86D070000BCD0 /* Scoop */ = {
 			isa = PBXGroup;
 			children = (
+				A123C5701EE882CD0000BCD0 /* Extensions */,
 				A123C5671EE87E430000BCD0 /* Helpers */,
 				A123C5601EE8766C0000BCD0 /* Models */,
 				A123C54E1EE86D070000BCD0 /* AppDelegate.swift */,
@@ -107,8 +116,19 @@
 			isa = PBXGroup;
 			children = (
 				A123C5681EE87E510000BCD0 /* Typealias.swift */,
+				A123C5711EE882E40000BCD0 /* Files.swift */,
+				A123C5731EE883010000BCD0 /* Errors.swift */,
 			);
 			name = Helpers;
+			sourceTree = "<group>";
+		};
+		A123C5701EE882CD0000BCD0 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A123C56E1EE881CB0000BCD0 /* UIImageView.swift */,
+				A123C56C1EE8807A0000BCD0 /* NSObject.swift */,
+			);
+			name = Extensions;
 			sourceTree = "<group>";
 		};
 		B1BD6E738A353D6CF2DCC7DF /* Frameworks */ = {
@@ -244,10 +264,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				A123C5641EE87C390000BCD0 /* Rating.swift in Sources */,
+				A123C56F1EE881CB0000BCD0 /* UIImageView.swift in Sources */,
+				A123C56D1EE8807A0000BCD0 /* NSObject.swift in Sources */,
 				A123C5511EE86D070000BCD0 /* ViewController.swift in Sources */,
 				A123C5621EE876970000BCD0 /* Posts.swift in Sources */,
 				A123C54F1EE86D070000BCD0 /* AppDelegate.swift in Sources */,
 				A123C5691EE87E510000BCD0 /* Typealias.swift in Sources */,
+				A123C5741EE883010000BCD0 /* Errors.swift in Sources */,
+				A123C5721EE882E40000BCD0 /* Files.swift in Sources */,
 				A123C56B1EE87F3F0000BCD0 /* Callbacks.swift in Sources */,
 				A123C5661EE87D260000BCD0 /* Posts+Utils.swift in Sources */,
 			);
