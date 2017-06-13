@@ -10,5 +10,5 @@ import Foundation
 
 struct typealiases {
     typealias PostsList = ([Posts]) -> ()
-    typealias OperationCallbacks = (Callback) -> ()
+    typealias OperationCallbacks = (Callbacks) -> ()
 }

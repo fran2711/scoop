@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>216419996981-o8s8i2nff22etdvvk0ig4d1ml8861a7a.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.216419996981-o8s8i2nff22etdvvk0ig4d1ml8861a7a</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC-3r952Lgi49p2M3ItqTY9DK5S_ok1Z20</string>
+	<key>GCM_SENDER_ID</key>
+	<string>216419996981</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.franlucenadejuan.Scoop</string>
+	<key>PROJECT_ID</key>
+	<string>scoops-36a2b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>scoops-36a2b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:216419996981:ios:9712d320a0ba10b8</string>
+	<key>DATABASE_URL</key>
+	<string>https://scoops-36a2b.firebaseio.com</string>
+</dict>
+</plist>
